@@ -23,10 +23,10 @@ void main() {
       ),
       theme: ThemeData().copyWith(
         useMaterial3: true,
-        colorScheme: kDarkColorScheme,
+        colorScheme: kColorScheme,
         appBarTheme: const AppBarTheme().copyWith(
-          backgroundColor: kDarkColorScheme.onPrimaryContainer,
-          foregroundColor: kDarkColorScheme.primaryContainer,
+          backgroundColor: kColorScheme.onPrimaryContainer,
+          foregroundColor: kColorScheme.primaryContainer,
         ),
         cardTheme: const CardTheme().copyWith(
           color: kColorScheme.secondaryContainer,
